@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>DollarsBankServlet</servlet-name>
+  	<display-name>DollarsBankServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.cognixia.jump.web.DollarsBankServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DollarsBankServlet</servlet-name>
+  	<url-pattern>/DollarsBankServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
